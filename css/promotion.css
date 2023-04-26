@@ -22,22 +22,20 @@
 
 @media screen and (max-width: 1280px) {
   .promotion .inner {
-    height: 275px;
+    height: auto;
+    border-bottom: 8px solid #f0f4f4;
+    padding-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .promotion .inner {
-    height: 200px;
-    border-bottom: 8px solid #f0f4f4;
+    height: auto;
   }
   .promotion .section-top {
     display: block;
   }
 
-  .promotion .inner {
-    height: 200px;
-  }
   .promotion .sw-bt {
     display: none;
   }
@@ -45,7 +43,7 @@
 
 @media screen and (max-width: 760px) {
   .promotion .inner {
-    height: 190px;
+    height: auto;
   }
   .sw-promotion {
     width: 50%;
