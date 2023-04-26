@@ -1,363 +1,379 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/promotion.css" />
+    <link rel="stylesheet" href="./css/shopping.css" />
+    <!-- Favicon -->
+    <title>인터파크</title>
+    <!-- HTML 버전 처리 -->
+    <!-- SEO 적용 -->
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/common.css" />
-  <link rel="stylesheet" href="./css/index.css" />
-  <link rel="stylesheet" href="./css/font.css" />
-  <link rel="stylesheet" href="./css/header.css" />
-  <link rel="stylesheet" href="./css/promotion.css" />
-  <link rel="stylesheet" href="./css/shopping.css" />
-  <title>인터파크</title>
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-</head>
-
-<body>
-  <!-- 전체 레이아웃 -->
-  <div id="wrap">
-    <!-- 상단헤더 -->
-    <header class="header">
-      <div class="inner">
-        <div class="header_inner_top clearfix">
-          <div class="header_left">
-            <a href="index.html" alt="인터파크로 가기" class="logo"> </a>
-            <form class="searchwrap" action="">
-              <input type="text" class="search_text" placeholder="검색어를 입력 해주세요." maxlength="225" />
-              <input type="button" class="search_bt" />
-              <input type="reset" class="search_reset" value=" " />
-            </form>
-            <!-- 즉 form은 데이터 베이스로 자료 요청할떄 쓰는 것 -->
+  <body>
+    <!-- 전체 레이아웃 -->
+    <div id="wrap">
+      <!-- 상단헤더 -->
+      <header class="header">
+        <div class="inner">
+          <div class="header_inner_top clearfix">
+            <div class="header_left">
+              <a href="index.html" alt="인터파크로 가기" class="logo"> </a>
+              <form class="searchwrap" action="">
+                <input
+                  type="text"
+                  class="search_text"
+                  placeholder="검색어를 입력 해주세요."
+                  maxlength="225"
+                />
+                <input type="button" class="search_bt" />
+                <input type="reset" class="search_reset" value=" " />
+              </form>
+              <!-- 즉 form은 데이터 베이스로 자료 요청할떄 쓰는 것 -->
+            </div>
+            <div class="header_right">
+              <ul class="member_list">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li>
+                  <a href="#"
+                    >마이페이지
+                    <i class="icon_arrow"></i>
+                  </a>
+                  <div class="mymage">
+                    <ul class="mypage_list">
+                      <li>
+                        <a href="#"><b>투어</b> 마이페이지</a>
+                      </li>
+                      <li>
+                        <a href="#"><b>티켓</b> 마이페이지</a>
+                      </li>
+                      <li>
+                        <a href="#"><b>쇼핑</b> 마이페이지</a>
+                      </li>
+                      <li>
+                        <a href="#"><b>도서</b> 마이페이지</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="header_right">
-            <ul class="member_list">
-              <li><a href="#">로그인</a></li>
-              <li><a href="#">회원가입</a></li>
-              <li>
-                <a href="#">마이페이지
-                  <i class="icon_arrow"></i>
-                </a>
-                <div class="mymage">
-                  <ul class="mypage_list">
-                    <li>
-                      <a href="#"><b>투어</b> 마이페이지</a>
-                    </li>
-                    <li>
-                      <a href="#"><b>티켓</b> 마이페이지</a>
-                    </li>
-                    <li>
-                      <a href="#"><b>쇼핑</b> 마이페이지</a>
-                    </li>
-                    <li>
-                      <a href="#"><b>도서</b> 마이페이지</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="header_inner_bottom">
-          <nav class="header_main_nav clearfix">
-            <ul class="mein_list">
-              <li>
-                <a href="#">
-                  <i class="header_icon">
-                    <img src="./images/icon_tour.png" alt="투어아이콘" />
-                  </i>
-                  <span>투어</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="header_icon">
-                    <img src="./images/icon_ticket.png" alt="티켓아이콘" />
-                  </i>
-                  <span>티켓</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="header_icon">
-                    <img src="./images/icon_shopping.png" alt="쇼핑아이콘" />
-                  </i>
-                  <span>쇼핑</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="header_icon">
-                    <img src="./images/icon_book.png" alt="도서아이콘" />
-                  </i>
-                  <span>도서</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="header_icon">
-                    <img src="./images/icon_triple.png" alt="트리플아이콘" />
-                  </i>
-                  <span>트리플</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="header_icon">
-                    <img src="./images/icon_nol.png" alt="NOL혜택 아이콘" />
-                  </i>
-                  <span>NOL혜택</span>
-                  <i class="header_badge"></i>
-                </a>
-              </li>
-              <!-- <li>
+          <div class="header_inner_bottom">
+            <nav class="header_main_nav clearfix">
+              <ul class="mein_list">
+                <li>
+                  <a href="#">
+                    <i class="header_icon">
+                      <img src="./images/icon_tour.png" alt="투어아이콘" />
+                    </i>
+                    <span>투어</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="header_icon">
+                      <img src="./images/icon_ticket.png" alt="티켓아이콘" />
+                    </i>
+                    <span>티켓</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="header_icon">
+                      <img src="./images/icon_shopping.png" alt="쇼핑아이콘" />
+                    </i>
+                    <span>쇼핑</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="header_icon">
+                      <img src="./images/icon_book.png" alt="도서아이콘" />
+                    </i>
+                    <span>도서</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="header_icon">
+                      <img src="./images/icon_triple.png" alt="트리플아이콘" />
+                    </i>
+                    <span>트리플</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="header_icon">
+                      <img src="./images/icon_nol.png" alt="NOL혜택 아이콘" />
+                    </i>
+                    <span>NOL혜택</span>
+                    <i class="header_badge"></i>
+                  </a>
+                </li>
+                <!-- <li>
                   <a href="#">
                       <span>티켓오픈</span>
                     </a>
                   </a>
                 </li> -->
-            </ul>
-            <ul class="header_event_menu">
-              <li><a href="#"> 티켓오픈 </a></li>
-            </ul>
-          </nav>
+              </ul>
+              <ul class="header_event_menu">
+                <li><a href="#"> 티켓오픈 </a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-      </div>
-    </header>
-    <!-- //상단헤더 -->
-    <!-- 추천이벤트 -->
-    <section class="promotion">
-      <div class="inner">
-        <div class="promotion_slide">
-          <button class="sw-bt sw-prev"></button>
-          <button class="sw-bt sw-next"></button>
-          <div class="swiper sw-promotion">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <a href="#">
-                  <img src="images/promotion1.jpg" alt="슬라이드이미지" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <img src="images/promotion2.png" alt="슬라이드이미지" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <img src="images/promotion3.jpg" alt="슬라이드이미지" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <img src="images/promotion4.jpg" alt="슬라이드이미지" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <img src="images/promotion5.jpg" alt="슬라이드이미지" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <img src="images/promotion6.jpg" alt="슬라이드이미지" /></a>
+      </header>
+      <!-- //상단헤더 -->
+      <!-- 추천이벤트 -->
+      <section class="promotion">
+        <div class="inner">
+          <div class="promotion_slide">
+            <button class="sw-bt sw-prev"></button>
+            <button class="sw-bt sw-next"></button>
+            <div class="swiper sw-promotion">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="images/promotion1.jpg" alt="슬라이드이미지"
+                  /></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="images/promotion2.png" alt="슬라이드이미지"
+                  /></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="images/promotion3.jpg" alt="슬라이드이미지"
+                  /></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="images/promotion4.jpg" alt="슬라이드이미지"
+                  /></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="images/promotion5.jpg" alt="슬라이드이미지"
+                  /></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="images/promotion6.jpg" alt="슬라이드이미지"
+                  /></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".sw-promotion", {
-        slidesPerView: 2,
-        spaceBetween: 24,
-        speed: 1000,
-        loop: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        navigation: {
-          nextEl: ".promotion .sw-next",
-          prevEl: ".promotion .sw-prev",
-        },
-      });
-    </script>
-    <!-- //추천이벤트 -->
-    <!-- 쇼핑추천 -->
-    <!-- 쇼핑추천 -->
-    <section class="shopping">
-      <div class="inner">
-        <div class="section_top">
-          <h2>쇼핑 추천</h2>
-          <p>할인이 쎄다! 지금, 특가 상품을 확인하세요.</p>
-          <div class="btns">
-            <a href="#" class="btns-active">쎈딜</a>
-            <a href="#">베스트</a>
-            <a href="#">오늘만특가</a>
-            <a href="#">어린이날</a>
-            <a href="#">소담상회</a>
-          </div>
-        </div>
-        <div class="section_slide">
-          <!-- Swiper 는 형식이 있다. 지키지 않으면 작동안됨 -->
-          <!-- sw-shopping 클래스는 js 로 제어하려고  -->
-          <div class="swiper sw-shopping">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <a href="#" class="good">
-                  <img src="images/good1.png" alt="제품1" />
-                  <div class="good-info">
-                    <ul class="good-info-list">
-                      <li>
-                        <b><span>5%</span> 11,950원</b>
-                      </li>
-                      <li>
-                        <p>맥 MAC 립스틱</p>
-                      </li>
-                    </ul>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="good">
-                  <img src="images/good2.jpg" alt="제품1" />
-                  <div class="good-info">
-                    <ul class="good-info-list">
-                      <li>
-                        <b><span>5%</span> 11,950원</b>
-                      </li>
-                      <li>
-                        <p>
-                          [장터할매]2023년 햇양파 중품/짱아치용 특품 3kg~10kg
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="good">
-                  <img src="images/good3.jpg" alt="제품1" />
-                  <div class="good-info">
-                    <ul class="good-info-list">
-                      <li>
-                        <b><span>5%</span> 11,950원</b>
-                      </li>
-                      <li>
-                        <p>
-                          QCY GTS 스마트워치 2세대 블랙/ 블루투스 통화가능 /
-                          실리콘 스트랩 메탈 스트랩 TPU 보호필름 추가구매
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="good">
-                  <img src="images/good4.jpg" alt="제품1" />
-                  <div class="good-info">
-                    <ul class="good-info-list">
-                      <li>
-                        <b><span>5%</span> 11,950원</b>
-                      </li>
-                      <li>
-                        <p>[베베당] 유기농 롱스틱 골고루 10봉 세트</p>
-                      </li>
-                    </ul>
-                  </div>
-                </a>
-              </div>
+      </section>
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".sw-promotion", {
+          slidesPerView: 2,
+          spaceBetween: 24,
+          speed: 1000,
+          loop: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: ".promotion .sw-next",
+            prevEl: ".promotion .sw-prev",
+          },
+        });
+      </script>
+      <!-- //추천이벤트 -->
+      <!-- 쇼핑추천 -->
+      <!-- 쇼핑추천 -->
+      <section class="shopping">
+        <div class="inner">
+          <div class="section_top">
+            <h2>쇼핑 추천</h2>
+            <p>할인이 쎄다! 지금, 특가 상품을 확인하세요.</p>
+            <div class="btns">
+              <a href="#" class="btns-active">쎈딜</a>
+              <a href="#">베스트</a>
+              <a href="#">오늘만특가</a>
+              <a href="#">어린이날</a>
+              <a href="#">소담상회</a>
             </div>
           </div>
-          <!-- Shopping Swiper -->
-          <script>
-            new Swiper(".sw-shopping", {
-              slidesPerView: 4,
-              spaceBetween: 26,
-            });
-          </script>
+          <div class="section_slide">
+            <!-- Swiper 는 형식이 있다. 지키지 않으면 작동안됨 -->
+            <!-- sw-shopping 클래스는 js 로 제어하려고  -->
+            <div class="swiper sw-shopping">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#" class="good">
+                    <img src="images/good1.png" alt="제품1" />
+                    <div class="good-info">
+                      <ul class="good-info-list">
+                        <li>
+                          <b><span>5%</span> 11,950원</b>
+                        </li>
+                        <li>
+                          <p>맥 MAC 립스틱</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="good">
+                    <img src="images/good2.jpg" alt="제품1" />
+                    <div class="good-info">
+                      <ul class="good-info-list">
+                        <li>
+                          <b><span>5%</span> 11,950원</b>
+                        </li>
+                        <li>
+                          <p>
+                            [장터할매]2023년 햇양파 중품/짱아치용 특품 3kg~10kg
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="good">
+                    <img src="images/good3.jpg" alt="제품1" />
+                    <div class="good-info">
+                      <ul class="good-info-list">
+                        <li>
+                          <b><span>5%</span> 11,950원</b>
+                        </li>
+                        <li>
+                          <p>
+                            QCY GTS 스마트워치 2세대 블랙/ 블루투스 통화가능 /
+                            실리콘 스트랩 메탈 스트랩 TPU 보호필름 추가구매
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="good">
+                    <img src="images/good4.jpg" alt="제품1" />
+                    <div class="good-info">
+                      <ul class="good-info-list">
+                        <li>
+                          <b><span>5%</span> 11,950원</b>
+                        </li>
+                        <li>
+                          <p>[베베당] 유기농 롱스틱 골고루 10봉 세트</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Shopping Swiper -->
+            <script>
+              new Swiper(".sw-shopping", {
+                slidesPerView: 4,
+                spaceBetween: 26,
+              });
+            </script>
+          </div>
+          <div class="section-bottom">
+            <a href="#" class="bt-link-shop">쇼핑 홈 바로가기</a>
+          </div>
         </div>
-        <div class="section-bottom">
-          <a href="#" class="bt-link-shop">쇼핑 홈 바로가기</a>
+      </section>
+      <!-- //쇼핑추천 -->
+      <!-- 투어특가 -->
+      <section class="tour">
+        <div class="inner">
+          <div class="section_top">
+            <h2>투어 특가</h2>
+            <p>망설이면 품절 되는 BEST 여행 상품</p>
+            <div class="btns"></div>
+          </div>
+          <div class="section_slide"></div>
+          <div class="section_bottom">
+            <a href="#" class="bt-link-shop">투어 홈 바로가기</a>
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- //쇼핑추천 -->
-    <!-- 투어특가 -->
-    <section class="tour">
-      <div class="inner">
-        <div class="section_top">
-          <h2>투어 특가</h2>
-          <p>망설이면 품절 되는 BEST 여행 상품</p>
-          <div class="btns"></div>
+      </section>
+      <!-- //투어특가 -->
+      <!-- 티켓 랭킹 -->
+      <section class="ticket">
+        <div class="inner">
+          <div class="section_top">
+            <h2>티켓 랭킹</h2>
+            <p>오늘 뭐볼까? 지금 HOT한 공연</p>
+            <div class="btns"></div>
+          </div>
+          <div class="section_slide"></div>
+          <div class="section_bottom">
+            <a href="#" class="bt-link-shop">티켓 홈 바로가기</a>
+          </div>
         </div>
-        <div class="section_slide"></div>
-        <div class="section_bottom">
-          <a href="#" class="bt-link-shop">투어 홈 바로가기</a>
+      </section>
+      <!-- //티켓 랭킹 -->
+      <!-- 인터파크 라이브 -->
+      <section class="live">
+        <div class="inner">
+          <div class="section_slide"></div>
+          <div class="section_bottom">
+            <a href="#" class="bt-link-shop">인터파크 라이브 바로가기</a>
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- //투어특가 -->
-    <!-- 티켓 랭킹 -->
-    <section class="ticket">
-      <div class="inner">
-        <div class="section_top">
-          <h2>티켓 랭킹</h2>
-          <p>오늘 뭐볼까? 지금 HOT한 공연</p>
-          <div class="btns"></div>
-        </div>
-        <div class="section_slide"></div>
-        <div class="section_bottom">
-          <a href="#" class="bt-link-shop">티켓 홈 바로가기</a>
-        </div>
-      </div>
-    </section>
-    <!-- //티켓 랭킹 -->
-    <!-- 인터파크 라이브 -->
-    <section class="live">
-      <div class="inner">
-        <div class="section_slide"></div>
-        <div class="section_bottom">
-          <a href="#" class="bt-link-shop">인터파크 라이브 바로가기</a>
-        </div>
-      </div>
-    </section>
-    <!-- //인터파크 라이브 -->
-    <!-- 오늘의 도사 -->
-    <section class="books">
-      <div class="inner">
-        <div class="section_top">
-          <h2>오늘의 도서</h2>
+      </section>
+      <!-- //인터파크 라이브 -->
+      <!-- 오늘의 도사 -->
+      <section class="books">
+        <div class="inner">
+          <div class="section_top">
+            <h2>오늘의 도서</h2>
 
-          <p>지금 읽기 딱 좋은 책, 놓치지 마세요!</p>
-          <div class="btns"></div>
+            <p>지금 읽기 딱 좋은 책, 놓치지 마세요!</p>
+            <div class="btns"></div>
+          </div>
+          <div class="section_slide"></div>
+          <div class="section_bottom">
+            <a href="#" class="bt-link-shop">도서 홈 바로가기</a>
+          </div>
         </div>
-        <div class="section_slide"></div>
-        <div class="section_bottom">
-          <a href="#" class="bt-link-shop">도서 홈 바로가기</a>
+      </section>
+      <!-- //오늘의 도사 -->
+      <!-- 하단이벤트 -->
+      <section class="event">
+        <div class="inner">
+          <div class="section_top">
+            <h2>이벤트</h2>
+            <p>인터파크에서 할인혜택을 꼭 챙기세요.</p>
+          </div>
+          <div class="section_slide"></div>
         </div>
-      </div>
-    </section>
-    <!-- //오늘의 도사 -->
-    <!-- 하단이벤트 -->
-    <section class="event">
-      <div class="inner">
-        <div class="section_top">
-          <h2>이벤트</h2>
-          <p>인터파크에서 할인혜택을 꼭 챙기세요.</p>
-        </div>
-        <div class="section_slide"></div>
-      </div>
-    </section>
-    <!-- //하단이벤트 -->
-    <!-- 하단푸터 -->
-    <footer class="footer">
-      <div class="inner"></div>
-    </footer>
-    <!-- //하단푸터 -->
-  </div>
-</body>
-
+      </section>
+      <!-- //하단이벤트 -->
+      <!-- 하단푸터 -->
+      <footer class="footer">
+        <div class="inner"></div>
+      </footer>
+      <!-- //하단푸터 -->
+    </div>
+  </body>
 </html>
