@@ -387,22 +387,7 @@ body {
   padding-top: 30px;
   padding-bottom: 90px;
 }
-
-.promotion .inner {
-  height: 345px;
-}
-.promotion-slide {
-  height: 100%;
-}
-.sw-promotion a {
-  display: inline-block;
-  border-radius: 13px;
-  overflow: hidden;
-}
-.sw-promotion a img {
-  width: 100%;
-  height: auto;
-}
+/* //추천이벤트 */
 
 /* 쇼핑추천 */
 .shopping {

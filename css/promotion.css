@@ -1,1 +1,38 @@
 @charset "utf-8";
+
+.promotion .inner {
+  height: 345px;
+}
+.promotion-slide {
+  height: 100%;
+}
+.sw-promotion a {
+  display: inline-block;
+  border-radius: 13px;
+  overflow: hidden;
+}
+.sw-promotion a img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .promotion .inner {
+    height: 275px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .promotion .inner {
+    height: 200px;
+  }
+  .promotion .sw-bt {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .promotion. .inner {
+    height: 190px;
+  }
+}

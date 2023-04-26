@@ -86,6 +86,7 @@
 }
 
 .header-right {
+  position: relative;
   float: right;
 }
 .member-list {
@@ -212,6 +213,9 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .mb-mypage {
+  position: absolute;
+  right: 10px;
+  top: -5px;
   display: none;
 }
 
@@ -237,13 +241,10 @@
     top: 140px;
   }
   .member-list {
-    position: relative;
     display: none;
   }
   .mb-mypage {
-    position: absolute;
-    right: 10px;
-    top: -5px;
+    display: block;
   }
   .header-down {
     text-align: center;
