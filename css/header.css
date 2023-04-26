@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+/* 공통 */
+.header > .inner > div {
+}
+/* //공통 */
+
+.header_inner_top {
+}
+
+.header_left {
+  float: left;
+}
+
+.logo {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+  width: 118px;
+  height: 50px;
+  background: url(../images/logo.svg) no-repeat center;
+  background-size: contain;
+  /* background-attachment: fixed; */
+  /* 백그라운드 이미지를 고정하라 */
+}
+
+.searchwarp > input {
+  height: 50px;
+}
+
+.header_right {
+  float: right;
+}
+
+.searchwrap {
+  position: relative;
+  float: left;
+  width: 455px;
+  height: 50px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 0px 15px;
+  overflow: hidden;
+}
+
+.searchwrap > input {
+  border: none;
+}
+
+.search_text::placeholder {
+  font-weight: 700;
+  font-size: 15px;
+  color: #a2a2a2;
+}
+.search_text {
+  width: calc(100% - 25px);
+  height: 100%;
+  box-sizing: border-box;
+  padding-right: 25px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.search_bt {
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+  /* inline 또는 inline-block 일떄 작동하는거임 */
+  vertical-align: -5px;
+  background: url(../images/btn_search.svg) no-repeat center;
+  background-size: cover;
+}
+
+.search_reset {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  cursor: pointer;
+  transform: translate(-0%, -50%);
+  width: 16px;
+  height: 16px;
+  background: url(../images/btn_searchDelete.svg) no-repeat center;
+  background-size: cover;
+}
+
+.header_right {
+}
+
+.member_list {
+  margin-top: 8px;
+  width: auto;
+  height: 50px;
+}
+
+.member_list > li {
+  position: relative;
+  height: 100%;
+  align-items: center;
+  float: left;
+}
+
+.member_list > li:nth-child(3):hover .mymage {
+  display: block;
+}
+
+.member_list > li > a {
+  display: block;
+  position: relative;
+  font-size: 1.5rem;
+  color: #111;
+  padding: 10px 11px 10px 10px;
+  font-weight: 500;
+}
+
+.icon_arrow::after {
+  display: inline-block;
+  position: relative;
+  content: "";
+  width: 8px;
+  height: 5px;
+  vertical-align: 3px;
+  margin-left: 2px;
+  background: url(../images/icon_arrow.svg) no-repeat center;
+}
+
+.mymage {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.mymage > .mypage_list {
+}
+
+.mypage_list > li {
+}
+
+.mypage_list > li > a {
+  display: block;
+  white-space: nowrap;
+  /* 줄바꿈은 거들뿐 */
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 1.4rem;
+}
+
+.mypage_list > li > a > b {
+}
+
+/* .member_list > li:last-child > a::after {
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translate(-0%, -50%);
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  background: url(../images/icon_arrow.svg) no-repeat center;
+} */
+
+.header_inner_bottom {
+  box-sizing: border-box;
+  height: auto;
+  padding: 21px 0px 20px 0px;
+}
+
+.header_main_nav {
+  width: auto;
+  height: 30px;
+}
+
+.mein_list > li {
+  display: flex;
+  width: auto;
+  margin-right: 22px;
+  float: left;
+}
+
+.mein_list > li > a {
+  display: flex;
+  align-items: center;
+}
+
+.header_icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.header_icon > img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+}
+
+.mein_list > li > a > span {
+  margin-left: 6px;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.mein_list > li > a > .header_badge {
+  position: static;
+  width: 2.3rem;
+  height: 1.5rem;
+  margin-left: 0.4rem;
+  background: url(../images/badge_hot.svg) no-repeat center;
+}
+
+.mein_list > li:nth-child(6):after {
+  position: relative;
+  display: block;
+  margin-top: 5px;
+  margin-left: 15px;
+  content: "";
+  width: 1px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header_event_menu {
+  float: left;
+  height: 30px;
+}
+
+.header_event_menu > li {
+  display: flex;
+  float: left;
+  height: 100%;
+  align-items: center;
+}
+
+.header_event_menu > li > a {
+  font-size: 1.6rem;
+  font-weight: 600;
+}

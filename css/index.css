@@ -1,0 +1,218 @@
+@charset "utf-8";
+@import url("font.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-style: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Pretendard", "sans-serif";
+  font-size: 1.3rem;
+  line-height: 1;
+  color: #000;
+  /* px 이나 rem 단위가 들어가지 않는다면  *
+  /* font-side 의 값을 곱한다./ */
+  /* 현재 font-size:1.3rem(13px) 이면
+  line-height 2 는 26px 이다. */
+  letter-spacing: -0.064px;
+  /* 이 친구 자간입니다 */
+  word-break: keep-all;
+  /* 공간이 줄여지면 단어별로 끊어서 내리라 라는 뜻 */
+}
+
+/* 공통스타일 */
+.inner {
+  position: relative;
+  margin: 0 auto;
+  width: 1280px;
+  padding: 30px 0px 90px 0px;
+}
+
+.clearfix::after {
+  display: block;
+  position: relative;
+  width: 100%;
+  content: "";
+  clear: both;
+}
+
+/* swiper 버튼 */
+.sw-bt {
+  position: absolute;
+  cursor: pointer;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.13);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.sw-next {
+  top: 50%;
+  right: -25px;
+}
+
+.sw-next::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 8px;
+  height: 16px;
+  background: url(../images/slider_arrow.svg) no-repeat center;
+}
+.sw-prev {
+  top: 50%;
+  left: -25px;
+}
+
+.sw-prev::before {
+  content: "";
+  position: absolute;
+  top: calc(50% -4px);
+  left: calc(50% - 8px);
+  display: block;
+  width: 8px;
+  height: 16px;
+  transform: scaleX(-1);
+  background: url(../images/slider_arrow.svg) no-repeat center;
+}
+
+/* //공통스타일 */
+
+/* 섹션내용구조 */
+.section_top {
+  text-align: center;
+}
+.section_top > h2 {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.section_top > p {
+  font-size: 1.8rem;
+  line-height: 2.4px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.section_top > .btns {
+  /* inline-block은 html 코드의 엔터도 문자로 인식! */
+  /* 그래서 공백글자가 들어간다 */
+  /* 그런 이유로 font-size 0 을 넣으면 공백이 없어진다 */
+  margin: 25px 0;
+  font-size: 0;
+}
+
+.btns_active {
+  background-color: #111 !important;
+  color: #fff !important;
+}
+
+.section_top > .btns > a {
+  margin-right: 0.6rem;
+  display: inline-block;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 20px;
+  line-height: 42px;
+  font-size: 1.4rem;
+  color: #111;
+  background-color: #fff;
+}
+
+.section_slide {
+  margin-bottom: 20px;
+}
+.section_bottom {
+  text-align: center;
+}
+
+.bt-link-shop {
+  /* inline-block 이니까 text-alien이 먹히는것 */
+  display: inline-block;
+  font-size: 16px;
+  line-height: 56px;
+  padding: 0px 49px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* //공통스타일 */
+
+/* 기본레이아웃 */
+.wrap {
+}
+
+/* 상단헤더 */
+.header {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  z-index: 9999;
+}
+
+.header > .inner {
+  height: 160px;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+/* 추천이벤트 */
+.promotion {
+  width: 100%;
+  height: 435px;
+}
+
+.promotion > .inner {
+  height: 345px;
+  padding: 30px 0px 90px 0px;
+}
+/* 쇼핑추천 */
+.shopping {
+}
+/* 투어 */
+.tour {
+}
+/* 티켓랭킹 */
+.ticket {
+}
+/* 인터파크 라이프 */
+.live {
+}
+/* 오늘의 도시 */
+.books {
+}
+/* 하단이벤트 */
+.event {
+}
+/* 하단푸터 */
+.footer {
+}
