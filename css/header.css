@@ -1,245 +1,212 @@
 @charset "utf-8";
 
-/* 공통 */
-.header > .inner > div {
+/* 상단 */
+.header {
+  z-index: 999999;
+  /* border-bottom: 1px solid #ebebeb; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
-/* //공통 */
-
-.header_inner_top {
+.header .inner {
+  padding-top: 30px;
+  height: 160px;
+}
+.header-up {
 }
 
-.header_left {
+.header-left {
+  position: relative;
+  /* 자식들이 모두.. absoluter 라서. */
+  /*  width, height 준다 */
+  width: calc(118px + 455px + 20px);
+  height: 50px;
+
   float: left;
 }
 
 .logo {
+  /* a 태그는 inline 이므로 width, height 안됨 */
+  /* a 태그는 inline 이므로 maring, padding 일부 안됨 */
+  /* a 태그는 inline 이므로 최소 inline-block 으로 */
   display: inline;
-  float: left;
-  margin-right: 20px;
+  display: inline-block;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 118px;
   height: 50px;
-  background: url(../images/logo.svg) no-repeat center;
+  background: url("../images/logo.svg") no-repeat center;
   background-size: contain;
-  /* background-attachment: fixed; */
-  /* 백그라운드 이미지를 고정하라 */
 }
+.search {
+  position: absolute;
+  top: 0;
+  right: 0;
 
-.searchwarp > input {
-  height: 50px;
-}
-
-.header_right {
-  float: right;
-}
-
-.searchwrap {
-  position: relative;
-  float: left;
   width: 455px;
   height: 50px;
-  border: 1px solid rgb(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 25px;
-  padding: 0px 15px;
   overflow: hidden;
+  padding: 0px 15px;
 }
-
-.searchwrap > input {
-  border: none;
-}
-
-.search_text::placeholder {
-  font-weight: 700;
-  font-size: 15px;
-  color: #a2a2a2;
-}
-.search_text {
+.search-text {
   width: calc(100% - 25px);
-  height: 100%;
-  box-sizing: border-box;
-  padding-right: 25px;
+  height: 50px;
+  border: 0;
+  padding-right: 30px;
   font-size: 16px;
   font-weight: 400;
 }
-
-.search_bt {
-  cursor: pointer;
+.search-text::placeholder {
+  color: #a2a2a2;
+  font-size: 15px;
+  font-weight: 700;
+}
+.search-bt {
+  border: 0;
   width: 17px;
   height: 17px;
-  /* inline 또는 inline-block 일떄 작동하는거임 */
-  vertical-align: -5px;
-  background: url(../images/btn_search.svg) no-repeat center;
-  background-size: cover;
-}
-
-.search_reset {
-  position: absolute;
-  top: 50%;
-  right: 10%;
+  background: url("../images/btn_search.svg") no-repeat center;
   cursor: pointer;
-  transform: translate(-0%, -50%);
+  /* 조건 : inline 또는 inline-block */
+  vertical-align: -3px;
+}
+.search-reset {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 50px;
+  border: 0;
+  font-size: 0;
+  cursor: pointer;
+
   width: 16px;
   height: 16px;
-  background: url(../images/btn_searchDelete.svg) no-repeat center;
-  background-size: cover;
+  background: url("../images/btn_searchDelete.svg") no-repeat center;
 }
 
-.header_right {
+.header-right {
+  float: right;
 }
-
-.member_list {
-  margin-top: 8px;
-  width: auto;
-  height: 50px;
+.member-list {
+  margin-top: 17px;
+  /* padding-top: 17px; */
+  /* line-height: 50px; */
 }
-
-.member_list > li {
+.member-list > li {
   position: relative;
-  height: 100%;
-  align-items: center;
   float: left;
+  margin-right: 20px;
+}
+.member-list > li:last-child {
+  margin-right: 0;
 }
 
-.member_list > li:nth-child(3):hover .mymage {
-  display: block;
-}
-
-.member_list > li > a {
-  display: block;
-  position: relative;
-  font-size: 1.5rem;
+.member-list > li > a {
+  font-size: 15px;
   color: #111;
-  padding: 10px 11px 10px 10px;
   font-weight: 500;
 }
-
-.icon_arrow::after {
+.icon-arrow::after {
   display: inline-block;
   position: relative;
   content: "";
   width: 8px;
   height: 5px;
+  background: url("../images/arrow_pc.svg") no-repeat center;
   vertical-align: 3px;
-  margin-left: 2px;
-  background: url(../images/icon_arrow.svg) no-repeat center;
+  margin-left: 5px;
+}
+.mypage-bt:hover .mypage {
+  display: block;
 }
 
-.mymage {
+.mypage {
   display: none;
   position: absolute;
-  top: 50px;
-  right: 0px;
-  box-sizing: border-box;
+  top: 25px;
+  right: 0;
+  background: #fff;
   padding: 20px;
-  border-radius: 10px;
-  background-color: #fff;
-  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 13px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
 }
 
-.mymage > .mypage_list {
+.mypage-list {
+}
+.mypage-list li {
+  margin: 10px 0;
+}
+.member-list li:first-child {
+  margin-top: 0;
+}
+.member-list li:last-child {
+  margin-bottom: 0;
 }
 
-.mypage_list > li {
-}
-
-.mypage_list > li > a {
-  display: block;
+.mypage-list li a {
+  /* 글자 줄내림 없다. */
+  /* inline 은 한줄로 배치 */
   white-space: nowrap;
-  /* 줄바꿈은 거들뿐 */
-  box-sizing: border-box;
-  padding: 8px;
-  font-size: 1.4rem;
+  font-size: 14px;
+}
+.mypage-list li a b {
+  font-weight: 500;
 }
 
-.mypage_list > li > a > b {
+.header-down {
 }
 
-/* .member_list > li:last-child > a::after {
-  position: absolute;
-  right: -5px;
-  top: 50%;
-  transform: translate(-0%, -50%);
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: red;
-  background: url(../images/icon_arrow.svg) no-repeat center;
-} */
-
-.header_inner_bottom {
-  box-sizing: border-box;
-  height: auto;
-  padding: 21px 0px 20px 0px;
-}
-
-.header_main_nav {
-  width: auto;
-  height: 30px;
-}
-
-.mein_list > li {
-  display: flex;
-  width: auto;
-  margin-right: 22px;
-  float: left;
-}
-
-.mein_list > li > a {
-  display: flex;
-  align-items: center;
-}
-
-.header_icon {
+.service-list {
   display: block;
+  float: left;
+  margin-top: 30px;
+}
+.service-list li {
+  float: left;
+  padding-right: 23px;
+}
+.service-list li:last-child {
+  padding-right: 0;
+  margin-right: 15px;
+}
+
+.service-list li a {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  line-height: 30px;
+}
+.service-list li a img {
   width: 30px;
   height: 30px;
+  margin-right: 5px;
 }
 
-.header_icon > img {
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: contain;
-}
-
-.mein_list > li > a > span {
-  margin-left: 6px;
-  box-sizing: border-box;
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-
-.mein_list > li > a > .header_badge {
-  position: static;
-  width: 2.3rem;
-  height: 1.5rem;
-  margin-left: 0.4rem;
-  background: url(../images/badge_hot.svg) no-repeat center;
-}
-
-.mein_list > li:nth-child(6):after {
-  position: relative;
+.service-menu {
   display: block;
-  margin-top: 5px;
-  margin-left: 15px;
+  float: left;
+  margin-top: 30px;
+}
+.service-menu li {
+  float: left;
+}
+.service-menu li a {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 0 12px;
+}
+.service-menu li a::before {
+  display: block;
+  position: absolute;
+  top: calc(50% - 16px / 2);
+  left: 0;
   content: "";
   width: 1px;
-  height: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.header_event_menu {
-  float: left;
-  height: 30px;
-}
-
-.header_event_menu > li {
-  display: flex;
-  float: left;
-  height: 100%;
-  align-items: center;
-}
-
-.header_event_menu > li > a {
-  font-size: 1.6rem;
-  font-weight: 600;
+  height: 16px;
+  background: rgba(0, 0, 0, 0.2);
 }

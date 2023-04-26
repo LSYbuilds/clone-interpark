@@ -1,1 +1,84 @@
 @charset "utf-8";
+/* 투어특가 */
+.tour {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.tour .section-slide {
+  height: 355px;
+}
+.sw-tour {
+  height: 100%;
+}
+.tour-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.tour-img {
+  position: relative;
+  width: 100%;
+  height: 245px;
+  overflow: hidden;
+}
+.tour-img img {
+  /* absolute 를 영역 중앙에 배치 */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* 좌표, 영역말고 내용 즉, 보이는 부분만 이동 */
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+}
+
+.tour-info {
+  padding: 20px;
+  background: #fff;
+}
+.tour-info-list {
+}
+.tour-info-list li {
+  position: relative;
+  margin-bottom: 3px;
+}
+
+.tour-cate {
+  position: absolute;
+  left: 0;
+  top: -39px;
+
+  display: inline-block;
+  background: #4a95ff;
+  font-size: 14px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: 700;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+.tour-title {
+  font-size: 15px;
+  line-height: 18px;
+  color: #4a95ff;
+  display: block;
+  /* 1줄 말줄임 ...  */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tour-place {
+}
+.tour-price {
+  color: #111;
+  font-size: 16px;
+  line-height: 24px;
+}
+.tour-price b {
+  font-weight: 700;
+  font-size: 20px;
+}

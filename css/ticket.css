@@ -1,1 +1,109 @@
 @charset "utf-8";
+
+/* 티켓랭킹 */
+.ticket {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+.ticket .section-slide {
+  height: 540px;
+}
+
+.sw-ticket {
+  height: 100%;
+}
+
+.ticket-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ticket-img {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+
+  border-radius: 10px;
+}
+
+.ticket-img img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+}
+.ticket-rank {
+  position: absolute;
+  left: 25px;
+  bottom: 30px;
+  font-size: 70px;
+  color: #fff;
+  font-weight: 700;
+  z-index: 1;
+}
+.ticket-img::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)),
+    linear-gradient(180deg, transparent 68.5%, rgba(0, 0, 0, 0.6));
+}
+
+.ticket-info {
+  padding: 20px 10px;
+  background: #fff;
+}
+.ticket-info-list {
+}
+.ticket-info-list li {
+  margin-bottom: 5px;
+}
+.ticket-info-list li:first-child {
+  margin-bottom: 0px;
+}
+.ticket-title {
+  color: #111;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  /* 2줄 ... 처리 */
+  display: -webkit-box;
+  height: 44px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.ticket-hall {
+  display: block;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666;
+  /* 1줄 ... 처리 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ticket-date {
+  display: block;
+  font-size: 14px;
+  line-height: 17px;
+  color: #999;
+}
+.ticket-sale {
+  display: inline-block;
+  line-height: 24px;
+  font-size: 11px;
+  padding: 0 8px;
+  color: #ef3e43;
+  border: 1px solid rgba(239, 62, 67, 0.3);
+  border-radius: 3px;
+}
