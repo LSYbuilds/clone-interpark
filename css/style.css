@@ -32,10 +32,28 @@ body {
 .inner {
   display: block;
   position: relative;
-  width: 1280px;
-  width: 128rem;
+  max-width: 1280px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1280px) {
+  .inner {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .inner {
+    max-width: 760px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .inner {
+    max-width: 100%;
+  }
+}
+
 /* float 해제 */
 .clearfix::after {
   content: "";
