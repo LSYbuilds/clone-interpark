@@ -104,6 +104,7 @@ body {
 
 /* section 내용 구조 */
 .section-top {
+  margin-bottom: 20px;
   text-align: center;
 }
 .section-top > h2 {
@@ -166,6 +167,39 @@ body {
   width: 7px;
   height: 11px;
   background: url("../images/icon_linkArrow.svg") no-repeat center;
+}
+
+@media screen and (max-width: 1280px) {
+  .section-top {
+  }
+  .section-top > h2 {
+  }
+  .section-top > p {
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-top {
+  }
+  .section-top > h2 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  .section-top > p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 2px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .seciton-top {
+  }
+  .seciton-top > h2 {
+  }
+  .section-top > p {
+  }
 }
 
 /* 기본레이아웃 */
