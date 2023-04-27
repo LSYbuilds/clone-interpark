@@ -72,3 +72,16 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+
+@media screen and (max-width: 760px) {
+
+
+}

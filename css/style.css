@@ -37,18 +37,28 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
+  .wrap > section {
+  }
   .inner {
     max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 1024px) {
+  .wrap > section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
   .inner {
     max-width: 760px;
   }
 }
 
 @media screen and (max-width: 760px) {
+  .warp > section {
+    padding-bottom: 30px;
+  }
+
   .inner {
     max-width: 100%;
   }
@@ -103,6 +113,11 @@ body {
 }
 
 /* section 내용 구조 */
+
+.wrap > section {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
 .section-top {
   margin-bottom: 20px;
   text-align: center;
@@ -418,8 +433,6 @@ body {
 
 /* 추천이벤트 */
 .promotion {
-  padding-top: 30px;
-  padding-bottom: 90px;
 }
 /* //추천이벤트 */
 
