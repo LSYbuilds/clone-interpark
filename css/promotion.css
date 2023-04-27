@@ -53,6 +53,18 @@
   .promotion .sw-bt {
     display: none;
   }
+  /* swiper.js에서 지동으로 css 생성 */
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0.2;
+    background: #000;
+  }
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #000;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -69,5 +81,20 @@
 
     width: 50%;
     min-width: 350px;
+  }
+  .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    opacity: 0.3;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition: width 0.5s;
+  }
+  .swiper-pagination-bullet-active {
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+    background: #fff;
   }
 }
