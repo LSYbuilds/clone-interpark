@@ -628,9 +628,6 @@ body {
   padding-top: 30px;
   padding-bottom: 90px;
 }
-.ticket .section-slide {
-  height: 540px;
-}
 
 /* 티켓은 버튼을 이상하니 우선순위로 둔다 */
 .ticket > .inner > .section-slide > .sw-bt {
