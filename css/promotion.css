@@ -4,6 +4,7 @@
   height: 345px;
 }
 .promotion-slide {
+  position: relative;
   height: 100%;
 }
 .sw-promotion a {
@@ -20,17 +21,30 @@
   display: none;
 }
 
+.sw-promotion-control {
+  position: relative;
+  text-align: center;
+  display: none;
+}
+
+.sw-promotion-pg {
+  display: inline-block;
+}
+
 @media screen and (max-width: 1280px) {
   .promotion .inner {
-    height: auto;
+    height: 275px;
     border-bottom: 8px solid #f0f4f4;
     padding-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 1024px) {
+  .sw-promotion-control {
+    display: block;
+  }
   .promotion .inner {
-    height: auto;
+    height: 300px;
   }
   .promotion .section-top {
     display: block;
@@ -42,10 +56,18 @@
 }
 
 @media screen and (max-width: 760px) {
+  .sw-promotion-control {
+    z-index: 100;
+    margin-top: -25px;
+  }
   .promotion .inner {
-    height: auto;
+    height: 290px;
   }
   .sw-promotion {
+    /* 화면 너비에 비례해 줄어든다 */
+    /* 그러나 일정 너비 이하는 줄어들지 않아야한다 */
+
     width: 50%;
+    min-width: 350px;
   }
 }
