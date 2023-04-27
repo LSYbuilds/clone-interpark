@@ -42,6 +42,9 @@ body {
   .inner {
     max-width: 1024px;
   }
+  .sw-bt {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -50,7 +53,10 @@ body {
     padding-bottom: 40px;
   }
   .inner {
+    padding: 0 20px;
+    padding-bottom: 20px;
     max-width: 760px;
+    border-bottom: 8px solid #f0f4f4;
   }
 }
 
@@ -66,9 +72,9 @@ body {
 
 /* float 해제 */
 .clearfix::after {
-  content: "";
-  position: relative;
   display: block;
+  position: relative;
+  content: "";
   width: 100%;
   clear: both;
 }
@@ -175,13 +181,22 @@ body {
   font-weight: 700;
 }
 .bt-link-shop::after {
-  content: "";
-  position: relative;
   display: inline-block;
+  position: relative;
+  content: "";
   margin-left: 3px;
   width: 7px;
   height: 11px;
   background: url("../images/icon_linkArrow.svg") no-repeat center;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-top {
+  }
+  .section-top > h2 {
+  }
+  .section-top > p {
+  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -205,6 +220,23 @@ body {
     font-size: 15px;
     line-height: 18px;
     margin-top: 2px;
+  }
+  .bt-link-shop {
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    line-height: 48px;
+    font-size: 1.5rem;
+  }
+  .section-top .btns {
+    margin: 15px 0;
+    white-space: nowrap;
+    margin-right: 5px;
+  }
+  .section-top .btns a {
+    margin-right: 8px;
+    line-height: 34px;
+    padding: 0 14px;
   }
 }
 
@@ -487,6 +519,8 @@ body {
   color: #ef3e43;
 }
 .good-info-list li p {
+  /* 3. display: -webkit-box */
+  display: -webkit-box;
   font-size: 15px;
   line-height: 18px;
   color: #111;
@@ -500,8 +534,6 @@ body {
   height: 36px;
   /* 2. 넘치는 영역을 가린다. */
   overflow: hidden;
-  /* 3. display: -webkit-box */
-  display: -webkit-box;
   /* 4. text-overflow: elipsis */
   text-overflow: ellipsis;
   /* 5. 아래 코드를 입력한다. */
@@ -537,8 +569,8 @@ body {
 .tour-img img {
   /* absolute 를 영역 중앙에 배치 */
   position: absolute;
-  left: 50%;
   top: 50%;
+  left: 50%;
   /* 좌표, 영역말고 내용 즉, 보이는 부분만 이동 */
   transform: translate(-50%, -50%);
 
@@ -557,11 +589,10 @@ body {
 }
 
 .tour-cate {
-  position: absolute;
-  left: 0;
-  top: -39px;
-
   display: inline-block;
+  position: absolute;
+  top: -39px;
+  left: 0;
   background: #4a95ff;
   font-size: 14px;
   line-height: 32px;
@@ -571,10 +602,10 @@ body {
   border-radius: 3px;
 }
 .tour-title {
+  display: block;
   font-size: 15px;
   line-height: 18px;
   color: #4a95ff;
-  display: block;
   /* 1줄 말줄임 ...  */
   overflow: hidden;
   text-overflow: ellipsis;
@@ -627,26 +658,26 @@ body {
 
 .ticket-img img {
   position: absolute;
-  left: 50%;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 
   width: 100%;
 }
 .ticket-rank {
   position: absolute;
-  left: 25px;
   bottom: 30px;
+  left: 25px;
   font-size: 70px;
   color: #fff;
   font-weight: 700;
   z-index: 1;
 }
 .ticket-img::after {
-  content: "";
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
+  content: "";
   width: 100%;
   height: 100%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)),
@@ -666,12 +697,12 @@ body {
   margin-bottom: 0px;
 }
 .ticket-title {
+  /* 2줄 ... 처리 */
+  display: -webkit-box;
   color: #111;
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
-  /* 2줄 ... 처리 */
-  display: -webkit-box;
   height: 44px;
   overflow: hidden;
   text-overflow: ellipsis;

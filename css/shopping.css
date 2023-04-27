@@ -2,15 +2,17 @@
 
 /* 쇼핑추천 */
 .shopping {
-  padding-top: 30px;
-  padding-bottom: 90px;
 }
 .shopping .section-slide {
-  height: 405px;
+  height: auto;
 }
 
 .sw-shopping {
   height: 100%;
+}
+
+.section-slide > .swiper-slide {
+  height: auto;
 }
 
 .good {
@@ -46,6 +48,7 @@
   line-height: 24px;
   color: #111;
   font-weight: 700;
+  white-space: nowrap;
 }
 .good-info-list li b span {
   color: #ef3e43;
@@ -74,14 +77,48 @@
 }
 
 @media screen and (max-width: 1280px) {
-
 }
 
 @media screen and (max-width: 1024px) {
+  .good-info {
+    padding: 10px;
+  }
 }
 
+@media screen and (max-width: 800px) {
+  .good {
+    min-width: 100px;
+  }
+  .good-ifnolist > li > p {
+    font-size: 1.3rem;
+  }
+  .good-info-list li b {
+    font-size: 15px;
+    list-style: 18px;
+    white-space: nowrap;
+  }
+  .good-info {
+    padding: 10px;
+  }
+}
 
 @media screen and (max-width: 760px) {
-
-
+  .good {
+    min-width: 100px;
+  }
+  .good-ifnolist > li > p {
+    font-size: 1.3rem;
+  }
+  .good-info-list li b {
+    font-size: 15px;
+    list-style: 18px;
+  }
+  .good-info-list li p {
+    font-size: 1.3rem;
+    line-height: 16px;
+    height: 32px;
+  }
+  .good-info {
+    padding: 5px;
+  }
 }

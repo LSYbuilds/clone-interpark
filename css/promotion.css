@@ -34,7 +34,6 @@
 @media screen and (max-width: 1280px) {
   .promotion .inner {
     height: 275px;
-    border-bottom: 8px solid #f0f4f4;
     padding-bottom: 20px;
   }
 }
