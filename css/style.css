@@ -42,9 +42,6 @@ body {
   .inner {
     max-width: 1024px;
   }
-  .sw-bt {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -57,6 +54,9 @@ body {
     padding-bottom: 20px;
     max-width: 760px;
     border-bottom: 8px solid #f0f4f4;
+  }
+  .sw-bt {
+    display: none;
   }
 }
 
