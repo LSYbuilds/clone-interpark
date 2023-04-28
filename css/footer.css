@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.footer .inner {
+  border-bottom: 0;
+}
+
 .footer-menu {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
