@@ -134,6 +134,12 @@
 @media screen and (max-width: 760px) {
   .ticket .section-slide {
   }
+  .ticket-link {
+    width: 150px;
+  }
+  .ticket-img {
+    height: 200px;
+  }
   .ticket-rank {
     left: 12px;
     bottom: 7px;
