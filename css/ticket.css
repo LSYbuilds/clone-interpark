@@ -115,10 +115,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .ticket .section-slide {
+  /* .ticket .section-slide {
     width: 120%;
     overflow: hidden;
-  }
+  } */
   .ticket-rank {
     left: 12px;
     bottom: 7px;
