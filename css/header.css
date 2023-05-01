@@ -226,6 +226,7 @@
   .header .inner {
     padding-top: 15px;
     height: 230px;
+    border-bottom: 8px solid #f0f4f4;
   }
   .logo {
     margin-left: 15px;
