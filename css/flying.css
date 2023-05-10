@@ -22,6 +22,7 @@
   border: 1px solid rgba(15, 14, 14, 0.5);
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.16);
   background: #fff url("../images/btn_topArrow.svg") no-repeat center;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1280px) {
