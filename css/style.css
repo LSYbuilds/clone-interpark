@@ -86,6 +86,10 @@ body {
   font-size: 0;
   cursor: pointer;
 }
+
+.sw-bt.swiper-button-disabled {
+  display: none;
+}
 .sw-next {
   position: absolute;
   top: 50%;
@@ -290,6 +294,7 @@ body {
   background: url("../images/logo.svg") no-repeat center;
   background-size: contain;
 }
+
 .search {
   position: absolute;
   top: 0;
@@ -369,6 +374,7 @@ body {
   vertical-align: 3px;
   margin-left: 5px;
 }
+
 .mypage-bt:hover .mypage {
   display: block;
 }
@@ -383,6 +389,29 @@ body {
   border-radius: 13px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
 }
+
+/* 
+.mypage-bt {
+  padding-bottom: 140px;
+}
+.mypage-bt:hover .mypage {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mypage {
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  top: 25px;
+  right: 0;
+  padding: 20px;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.5s 0s ease-in, visibility 0.5s 0s ease-in;
+} */
 
 .mypage-list {
 }

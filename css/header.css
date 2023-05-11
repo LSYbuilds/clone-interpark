@@ -2,6 +2,7 @@
 
 /* 상단 */
 .header {
+  position: relative;
   z-index: 999999;
   /* border-bottom: 1px solid #ebebeb; */
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);

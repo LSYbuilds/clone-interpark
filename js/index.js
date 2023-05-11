@@ -43,6 +43,10 @@ window.onload = function () {
       fill: "row",
     },
     spaceBetween: 10,
+    navigation: {
+      nextEl: ".shopping .sw-next",
+      prevEl: ".shopping .sw-prev",
+    },
     breakpoints: {
       1024: {
         spaceBetween: 32,
@@ -72,6 +76,10 @@ window.onload = function () {
       fill: "row",
     },
     spaceBetween: 10,
+    navigation: {
+      nextEl: ".tour .sw-next",
+      prevEl: ".tour .sw-prev",
+    },
     breakpoints: {
       1024: {
         spaceBetween: 24,
@@ -97,6 +105,10 @@ window.onload = function () {
   let ticketSwiper = new Swiper(".sw-ticket", {
     slidesPerView: "3",
     spaceBetween: 10,
+    navigation: {
+      nextEl: ".ticket .sw-next",
+      prevEl: ".ticket .sw-prev",
+    },
     breakpoints: {
       1024: {
         slidesPerView: 3,
@@ -112,6 +124,10 @@ window.onload = function () {
   let liveSwiepr = new Swiper(".sw-live", {
     slidesPerView: 4,
     spaceBetween: 10,
+    navigation: {
+      nextEl: ".live .sw-next",
+      prevEl: ".live .sw-prev",
+    },
     breakpoints: {
       1024: {
         slidesPerView: 3,
@@ -131,6 +147,10 @@ window.onload = function () {
       fill: "row",
     },
     spaceBetween: 19,
+    navigation: {
+      nextEl: ".books .sw-next",
+      prevEl: ".books .sw-prev",
+    },
     breakpoints: {
       1024: {
         slidesPerView: 3,
@@ -154,6 +174,10 @@ window.onload = function () {
   let eventsSwiper = new Swiper(".sw-events", {
     slidesPerView: 3,
     spaceBetween: 27,
+    navigation: {
+      nextEl: ".event .sw-next",
+      prevEl: ".event .sw-prev",
+    },
     breakpoints: {
       1280: {
         slidesPerView: 4,
