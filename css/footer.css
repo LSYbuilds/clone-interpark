@@ -5,9 +5,11 @@
 }
 
 .footer-menu {
+  position: relative;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   padding: 20px 0px;
+  z-index: 9999;
 }
 
 .footer-menu .inner {
@@ -23,10 +25,10 @@
 }
 
 .footer-menu-list > li::after {
-  content: "";
   position: absolute;
-  right: -36px;
   top: 2px;
+  right: -36px;
+  content: "";
   width: 1px;
   height: 12px;
   background: rgba(0, 0, 0, 0.3);
@@ -47,9 +49,9 @@
 }
 
 .footer-menu-list > li > a > i::before {
-  content: "";
-  position: relative;
   display: inline-block;
+  position: relative;
+  content: "";
   width: 8px;
   height: 6px;
   margin-left: 4px;
@@ -60,8 +62,8 @@
 .more-list {
   display: none;
   position: absolute;
-  left: 0px;
   top: 20px;
+  left: 0px;
   padding: 17px;
   box-shadow: 0 0 1.6rem rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -128,9 +130,9 @@
 }
 
 .company-info > li > span.f-line::after {
-  content: "";
-  position: relative;
   display: inline-block;
+  position: relative;
+  content: "";
   width: 1px;
   height: 10px;
   margin: 0px 3px;
@@ -180,8 +182,8 @@
 
 .footer-mobile-menu a,
 .footer-mobile-info a {
-  position: relative;
   display: inline-block;
+  position: relative;
   padding: 0 8px;
   font-size: 11px;
   color: #333;
@@ -197,31 +199,31 @@
   display: none;
 }
 .a-line::after {
-  content: "";
-  position: absolute;
-  right: 0px;
-  top: 0px;
   display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  content: "";
   width: 1px;
   height: 12px;
   background: #afafaf;
 }
 
 .a-more::after {
-  content: "";
   position: absolute;
+  right: -8px;
+  content: "";
   width: 10px;
   height: 10px;
-  right: -8px;
   background: url("../images/footer_arrow.svg") no-repeat center;
 }
 
 .a-line-prev::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: 0px;
   display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
   width: 1px;
   height: 12px;
   background: #afafaf;
@@ -235,8 +237,8 @@
   margin: 25px 0;
 }
 .footer-mobile-desc {
-  position: relative;
   display: block;
+  position: relative;
   padding: 0 15%;
   margin-bottom: 95px;
   font-size: 10px;
