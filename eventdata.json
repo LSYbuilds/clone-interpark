@@ -1,0 +1,23 @@
+{
+  "event_total": 4,
+  "event_1": {
+    "link": "#",
+    "pic": "banner1.jpg",
+    "alt": "이벤트 이미지"
+  },
+  "event_2": {
+    "link": "#",
+    "pic": "banner2.jpg",
+    "alt": "이벤트 이미지"
+  },
+  "event_3": {
+    "link": "#",
+    "pic": "banner3.jpg",
+    "alt": "이벤트 이미지"
+  },
+  "event_4": {
+    "link": "#",
+    "pic": "banner4.jpg",
+    "alt": "이벤트 이미지"
+  }
+}
