@@ -1,5 +1,5 @@
 {
-  "ticket_total": 8,
+  "ticket_total": 6,
   "ticket_1": {
     "link": "#",
     "pic": "musical1.gif",
@@ -58,26 +58,6 @@
     "title": "뮤지컬 <스웨그에이지 외쳐,조선!>",
     "hall": "홍익대 대학로 아트센터 대극장",
     "date": "2023.06.09 ~ 2023.08.20",
-    "sale": "단독판매"
-  },
-  "ticket_7": {
-    "link": "#",
-    "pic": "musical7.gif",
-    "alt": "티켓",
-    "rank": "7",
-    "title": "<식스> 더 뮤지컬",
-    "hall": "coex 신한카드 artium",
-    "date": "2023.03.31 ~ 2023.06.25",
-    "sale": "단독판매"
-  },
-  "ticket_8": {
-    "link": "#",
-    "pic": "musical7.gif",
-    "alt": "티켓",
-    "rank": "8",
-    "title": "<식스> 더 뮤지컬",
-    "hall": "coex 신한카드 artium",
-    "date": "2023.03.31 ~ 2023.06.25",
     "sale": "단독판매"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "ticket_total": 8,
+  "ticket_total": 7,
   "ticket_1": {
     "link": "#",
     "pic": "musical1.gif",
@@ -63,18 +63,8 @@
   "ticket_7": {
     "link": "#",
     "pic": "musical7.gif",
-    "alt": "티켓",
+    "alt": "",
     "rank": "7",
-    "title": "<식스> 더 뮤지컬",
-    "hall": "coex 신한카드 artium",
-    "date": "2023.03.31 ~ 2023.06.25",
-    "sale": "단독판매"
-  },
-  "ticket_8": {
-    "link": "#",
-    "pic": "musical7.gif",
-    "alt": "티켓",
-    "rank": "8",
     "title": "<식스> 더 뮤지컬",
     "hall": "coex 신한카드 artium",
     "date": "2023.03.31 ~ 2023.06.25",

@@ -2,10 +2,10 @@
 
 /* 티켓랭킹 */
 .ticket {
-  padding-top: 30px;
-  padding-bottom: 90px;
+
 }
 .ticket .section-slide {
+  height: auto;
   /* height: 540px; */
 }
 
@@ -26,7 +26,6 @@
   height: 31.25vw;
   overflow: hidden;
   border-radius: 10px;
-  width: calc();
 }
 
 .ticket-img img {

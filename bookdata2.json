@@ -1,0 +1,17 @@
+{
+  "books_total": 2,
+  "book_1": {
+    "link": "#",
+    "pic": "book1.jpg",
+    "alt": "책 이미지",
+    "title": "대한민국 청약지도",
+    "price": "18,000"
+  },
+  "book_2": {
+    "link": "#",
+    "pic": "book2.jpg",
+    "alt": "책 이미지",
+    "title": "천명관 장면소설",
+    "price": "18,000"
+  }
+}
