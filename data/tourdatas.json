@@ -1,0 +1,267 @@
+{
+  "tour": [
+    {
+      "catename": "망설이면 품절",
+      "list": [
+        {
+          "link": "#",
+          "pic": "tour_package1.jpg",
+          "alt": "toru",
+          "category": "",
+          "title": "",
+          "place": "미동부캐나다 5대특식_에어프레미아 7박10일",
+          "price": "3,290,000"
+        },
+        {
+          "link": "#",
+          "pic": "tour_package2.jpg",
+          "alt": "toru",
+          "category": "",
+          "title": "",
+          "place": "[칸쿤/리비에라마야] 스칼렛아르떼 5박 7일 - 항공 추가가능",
+          "price": "2,280,000"
+        },
+        {
+          "link": "#",
+          "pic": "tour_package3.jpg",
+          "alt": "toru",
+          "category": "",
+          "title": "",
+          "place": "[제주->김포] 대한항공 편도 할인항공권",
+          "price": "48,900"
+        },
+        {
+          "link": "#",
+          "pic": "tour_package4.jpg",
+          "alt": "toru",
+          "category": "",
+          "title": "",
+          "place": "[버스]천국의 섬 외도+통영 2일",
+          "price": "154,000"
+        },
+        {
+          "link": "#",
+          "pic": "tour_package5.jpg",
+          "alt": "toru",
+          "category": "",
+          "title": "",
+          "place": "[기차] 해운대해변열차+요트투어+태종대",
+          "price": "279,000"
+        },
+        {
+          "link": "#",
+          "pic": "tour_package6.jpg",
+          "alt": "toru",
+          "category": "",
+          "title": "",
+          "place": "[크로아티아+동유럽 5국9일]국적기 직항+전일정 4성호텔",
+          "price": "2,899,000"
+        }
+      ]
+    },
+    {
+      "catename": "패키지",
+      "list": [
+        {
+          "link": "#",
+          "pic": "tour_krhotel1.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "롯데리조트 속초",
+          "price": "293,110"
+        },
+        {
+          "link": "#",
+          "pic": "tour_krhotel2.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "소노벨 비발디 파크 B, C",
+          "price": "121,000"
+        },
+        {
+          "link": "#",
+          "pic": "tour_krhotel3.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "신라스테이 해운대",
+          "price": "198,000"
+        },
+        {
+          "link": "#",
+          "pic": "tour_krhotel4.png",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "롯데 시티호텔 제주",
+          "price": "148,390"
+        },
+        {
+          "link": "#",
+          "pic": "tour_krhotel5.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "이비스 앰배서더 인사동",
+          "price": "121,000"
+        },
+        {
+          "link": "#",
+          "pic": "tour_krhotel6.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "코랄로 바이 조선",
+          "price": "264,870"
+        }
+      ]
+    },
+    {
+      "catename": "숙소",
+      "list": [
+        {
+          "link": "#",
+          "pic": "tourcountry1.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "서튼 호텔 하카타 시티",
+          "price": "81,800"
+        },
+        {
+          "link": "#",
+          "pic": "tourcountry2.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "힐튼 하와이안 빌리지 와이키키 비치",
+          "price": "360,000"
+        },
+        {
+          "link": "#",
+          "pic": "tourcountry3.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "이스틴 그랜드 호텔 사톤",
+          "price": "142,400"
+        },
+        {
+          "link": "#",
+          "pic": "tourcountry4.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "하얏트 리젠시 와이키키 비치 리조트",
+          "price": "384,400"
+        },
+        {
+          "link": "#",
+          "pic": "tourcountry5.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "난바 오리엔탈 호텔",
+          "price": "158,400"
+        },
+        {
+          "link": "#",
+          "pic": "tourcountry6.jpg",
+          "alt": "tour",
+          "category": "",
+          "title": "",
+          "place": "샹그릴라 막탄 리조트 앤 스파",
+          "price": "359,900"
+        }
+      ]
+    },
+    {
+      "catename": "해외숙소",
+      "list": [
+        {
+          "link": "#",
+          "pic": "/img1.webp",
+          "alt": "toru1",
+          "category": "1등특가",
+          "title": "★5/21~22일특가★ 괌 가성비 TOP인기상품!",
+          "place": "괌 플라자 리조트 & 스파",
+          "price": "99,114"
+        },
+        {
+          "link": "#",
+          "pic": "/img2.jpeg",
+          "alt": "toru",
+          "category": "1등특가",
+          "title": "메인타워 오션뷰UP+오후출발",
+          "place": "[괌 5일] 힐튼호텔+메인타워오션뷰",
+          "price": "699,200"
+        },
+        {
+          "link": "#",
+          "pic": "/img3.jpeg",
+          "alt": "toru",
+          "category": "1등특가",
+          "title": "전객실 오션뷰& 오전출발!",
+          "place": "[괌 4/5일] 닛코호텔 오션프론트룸",
+          "price": "662,150"
+        },
+        {
+          "link": "#",
+          "pic": "/img4.webp",
+          "alt": "toru",
+          "category": "1등특가",
+          "title": "5/21~5/28 기간한정 초특가",
+          "place": "퍼시픽 아일랜드 클럽 사이판",
+          "price": "166,090"
+        },
+        {
+          "link": "#",
+          "pic": "/img5.jpeg",
+          "alt": "toru",
+          "category": "1등특가",
+          "title": "★6월출발/한정★ 좌석확보 및 패밀리특가",
+          "place": "[사이판 5/6일] 인기 리조트/호텔+전일정호텔식",
+          "price": "920,550"
+        },
+        {
+          "link": "#",
+          "pic": "/img6.jpeg",
+          "alt": "toru",
+          "category": "1등특가",
+          "title": "★5/21~23일특가★ 오션프론트디럭스룸UP",
+          "place": "[괌자유여행4일] 롯데호텔+타워오션프론트룸UP+조식",
+          "price": "759,050"
+        },
+        {
+          "link": "#",
+          "pic": "/img7.webp",
+          "alt": "toru",
+          "category": "1등특가",
+          "title": "5/21~5/28 기간한정 초특가",
+          "place": "호텔 닛코 괌",
+          "price": "275,057"
+        },
+        {
+          "link": "#",
+          "pic": "/img8.jpeg",
+          "alt": "toru",
+          "category": "1등특가",
+          "title": "카바나 이용권 제공+미니바1회",
+          "place": "[괌 자유여행 4일] 두짓타니+호텔조식",
+          "price": "903,450"
+        },
+        {
+          "link": "#",
+          "pic": "/img9.webp",
+          "alt": "toru",
+          "category": "1등특가",
+          "title": "5/21~5/28 기간한정 초특가",
+          "place": "힐튼 괌 리조트 앤 스파",
+          "price": "192,351"
+        }
+      ]
+    }
+  ]
+}

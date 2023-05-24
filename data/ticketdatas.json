@@ -1,0 +1,547 @@
+{
+  "ticket": [
+    {
+      "catename": "뮤지컬",
+      "list": [
+        {
+          "link": "#",
+          "pic": "musical1.gif",
+          "alt": "티켓",
+          "rank": "1",
+          "title": "뮤지컬〈영웅〉- 블루스퀘어",
+          "hall": "블루스퀘어 신한카드홀",
+          "date": "2023.03.17 ~ 2023.05.21",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musical2.gif",
+          "alt": "티켓",
+          "rank": "2",
+          "title": "불멸의 음악 불멸의 사랑 - 베토벤",
+          "hall": "세종문과회관 대극장",
+          "date": "2023.04.14 ~ 2023.05.15",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musical3.gif",
+          "alt": "티켓",
+          "rank": "3",
+          "title": "해적",
+          "hall": "서경대학교 공연예술센터",
+          "date": "2023.03.17 ~ 2023.05.21",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musical4.gif",
+          "alt": "티켓",
+          "rank": "4",
+          "title": "뮤지컬 <맘마미아>",
+          "hall": "충무아트센터 소극장",
+          "date": "2023.03.17 ~ 2023.05.21",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musical5.gif",
+          "alt": "티켓",
+          "rank": "5",
+          "title": "뮤지컬 <그날들> 10주년 기념 공연",
+          "hall": "예술의전당 오페라극장",
+          "date": "2023.07.12 ~ 2023.09.03",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musical6.gif",
+          "alt": "티켓",
+          "rank": "6",
+          "title": "뮤지컬 <스웨그에이지 외쳐,조선!>",
+          "hall": "홍익대 대학로 아트센터 대극장",
+          "date": "2023.06.09 ~ 2023.08.20",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musical7.gif",
+          "alt": "티켓",
+          "rank": "7",
+          "title": "<식스> 더 뮤지컬",
+          "hall": "coex 신한카드 artium",
+          "date": "2023.03.31 ~ 2023.06.25",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musical7.gif",
+          "alt": "티켓",
+          "rank": "8",
+          "title": "<식스> 더 뮤지컬",
+          "hall": "coex 신한카드 artium",
+          "date": "2023.03.31 ~ 2023.06.25",
+          "sale": "단독판매"
+        }
+      ]
+    },
+    {
+      "catename": "콘서트",
+      "list": [
+        {
+          "link": "#",
+          "pic": "consert1.gif",
+          "alt": "consert",
+          "rank": "1",
+          "title": "2023 이승윤 전국투어 콘서트 〈DOCKING〉 - 서울앵콜",
+          "hall": "올림픽공원 올림픽 홀",
+          "date": "2023.07.01 - 2023.07.02",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "consert2.gif",
+          "alt": "consert",
+          "rank": "2",
+          "title": "제15회 서울재즈페스티벌 2023",
+          "hall": "올림픽공원",
+          "date": "2023.05.26 - 2023.05.28",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "consert3.gif",
+          "alt": "consert",
+          "rank": "3",
+          "title": "현대카드 슈퍼콘서트 27 브루노 마스(Bruno Mars)",
+          "hall": "서울 잠실종합운동장 올림픽주경기장",
+          "date": "2023.06.17 - 2023.06.18",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "consert4.gif",
+          "alt": "consert",
+          "rank": "4",
+          "title": "워터밤 서울 2023",
+          "hall": "잠실 종합운동장 보조경기장",
+          "date": "2023.06.23 - 2023.06.25",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "consert5.gif",
+          "alt": "consert",
+          "rank": "5",
+          "title": "피크타임 콘서트 [YOUR TIME] - 부산",
+          "hall": "KBS 부산홀",
+          "date": "2023.06.24 - 2023.06.25",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "consert6.gif",
+          "alt": "consert",
+          "rank": "6",
+          "title": "플레이리스트1. LUCY,런치-안산",
+          "hall": "안산문화예술의전당 해돋이극장",
+          "date": "2023.07.21 - 2023.07.21",
+          "sale": "단독판매"
+        }
+      ]
+    },
+    {
+      "catename": "연극",
+      "list": [
+        {
+          "link": "#",
+          "pic": "ticket_3-1.gif",
+          "alt": "ticket",
+          "rank": "1",
+          "title": "대학로 1위 연극 〈쉬어매드니스〉",
+          "hall": "콘텐츠박스(KONTENTZ BOX)",
+          "date": "2015.11.12 - 2023.06.30",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "ticket_3-2.gif",
+          "alt": "ticket",
+          "rank": "2",
+          "title": "연극 〈2시 22분 - A GHOST STORY〉",
+          "hall": "세종문화회관 M씨어터",
+          "date": "2023.07.19 - 2023.09.02",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "ticket_3-3.gif",
+          "alt": "ticket",
+          "rank": "3",
+          "title": "연극 〈세일즈맨의 죽음〉",
+          "hall": "국립극장 달오름극장",
+          "date": "2023.05.21 - 2023.06.07",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "ticket_3-4.gif",
+          "alt": "ticket",
+          "rank": "4",
+          "title": "음악극 〈百人堂 태영〉",
+          "hall": "우란2경",
+          "date": "2023.05.19 - 2023.06.18",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "ticket_3-5.gif",
+          "alt": "ticket",
+          "rank": "5",
+          "title": "연극 ＇스크루테이프＇",
+          "hall": "LG아트센터 서울 U+ 스테이지",
+          "date": "2023.04.29 - 2023.06.10",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "ticket_3-6.gif",
+          "alt": "ticket",
+          "rank": "6",
+          "title": "연극 〈바니타스〉",
+          "hall": "스튜디오블루",
+          "date": "2023.05.20 - 2023.06.25",
+          "sale": "단독판매"
+        }
+      ]
+    },
+    {
+      "catename": "클래식/무용",
+      "list": [
+        {
+          "link": "#",
+          "pic": "classic1.gif",
+          "alt": "티켓",
+          "rank": "1",
+          "title": "히사이시 조 영화음악 콘서트 2033_서울 앙코르(7월)",
+          "hall": "롯데콘서트홀",
+          "date": "2023.07.02 ~ 2023.07.23",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "classic2.gif",
+          "alt": "티켓",
+          "rank": "2",
+          "title": "스즈메의 문단속 & 너의 이름은 & 날씨의 아이 영화 음악 콘서트",
+          "hall": "롯데콘서트홀",
+          "date": "2023.06.04 ~ 2023.06.04",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "classic3.gif",
+          "alt": "티켓",
+          "rank": "3",
+          "title": "<반지의 제왕:반지원정대>in Concert",
+          "hall": "세종문화회관 대극장",
+          "date": "2023.08.26 ~ 2023.08.27",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "classic4.gif",
+          "alt": "티켓",
+          "rank": "4",
+          "title": "국립발레단 <지젤>",
+          "hall": "국립극장 해오름극장",
+          "date": "2023.05.23 ~ 2023.05.27",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "classic5.gif",
+          "alt": "티켓",
+          "rank": "5",
+          "title": "히사이시 조 영화 음악 콘서트 2023_군산",
+          "hall": "예술의전당 오페라극장",
+          "date": "2023.07.12 ~ 2023.09.03",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "classic6.gif",
+          "alt": "티켓",
+          "rank": "6",
+          "title": "유니버설발레단 <백조의 호수>",
+          "hall": "예술의전당 오페라극장",
+          "date": "2023.06.09 ~ 2023.06.11",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "classic7.gif",
+          "alt": "티켓",
+          "rank": "7",
+          "title": "2023 발레스타즈",
+          "hall": "성남아트센터 오페라하우스",
+          "date": "2023.07.08 ~ 2023.07.08",
+          "sale": ""
+        }
+      ]
+    },
+    {
+      "catename": "스포츠",
+      "list": [
+        {
+          "link": "#",
+          "pic": "doosan.gif",
+          "rank": "1",
+          "title": "두산 vs SSG (5.28)",
+          "hall": "잠실야구장",
+          "date": "2023.05.28 - 2023.05.28",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "doosan.gif",
+          "rank": "2",
+          "title": "두산 vs SSG (5.28)",
+          "hall": "잠실야구장",
+          "date": "2023.05.28 - 2023.05.28",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "doosan.gif",
+          "rank": "3",
+          "title": "두산 vs SSG (5.27)",
+          "hall": "잠실야구장",
+          "date": "2023.05.27 ~ 2023.05.27",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "kiwoom.gif",
+          "rank": "4",
+          "title": "키움 vs 롯데 (5.28)",
+          "hall": "고척스카이돔",
+          "date": "2023.05.28 ~ 2023.05.28",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "kiwoom.gif",
+          "rank": "5",
+          "title": "키움 vs 롯데 (5.27)",
+          "hall": "고척스카이돔",
+          "date": "2023.05.27 - 2023.05.27",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "doosan.gif",
+          "rank": "6",
+          "title": "두산 vs 삼성 (5.24)",
+          "hall": "잠실야구장",
+          "date": "2023.05.24 - 2023.05.24"
+        }
+      ]
+    },
+    {
+      "catename": "레저/캠핑",
+      "list": [
+        {
+          "link": "#",
+          "pic": "book_leisure1.gif",
+          "alt": "티켓",
+          "rank": "1",
+          "title": "평택 진위천유원지 캠핑장",
+          "hall": "진위천유원지",
+          "date": "2021.11.01 ~2023.06.30",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "book_leisure2.gif",
+          "alt": "티켓",
+          "rank": "2",
+          "title": "평택 소풍 정원 캠핑장 이용권",
+          "hall": "평택 소풍정원 캠핑장",
+          "date": "2021.02.23 ~2023.06.30",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "book_leisure3.gif",
+          "alt": "티켓",
+          "rank": "3",
+          "title": "평택 내리캠핑장",
+          "hall": "평택 내리캠핑장",
+          "date": "2020.05.01 ~2023.06.30",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "book_leisure4.gif",
+          "alt": "티켓",
+          "rank": "4",
+          "title": "2023 시흥갯골캠핑장",
+          "hall": "갯골캠핑장",
+          "date": "2023.03.01 ~2023.06.30",
+          "sale": ""
+        },
+        {
+          "link": "#",
+          "pic": "book_leisure5.gif",
+          "alt": "티켓",
+          "rank": "5",
+          "title": "인천대공원 캠핑장(너나들이 캠핑장)",
+          "hall": "인천대공원캠핑장",
+          "date": "2021.02.26 ~2023.07.31",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "book_leisure6.gif",
+          "alt": "티켓",
+          "rank": "6",
+          "title": "자라섬캠핑장",
+          "hall": "자라섬캠핑장",
+          "date": "2021.08.01 ~2023.06.30",
+          "sale": "단독판매"
+        }
+      ]
+    },
+    {
+      "catename": "전시/행사",
+      "list": [
+        {
+          "link": "#exhibition",
+          "pic": "exhibition01.gif",
+          "alt": "전시행사1",
+          "rank": "1",
+          "title": "에드워드 호퍼: 길 위에서",
+          "hall": "서울시립미술관 서소문본관 전 층",
+          "date": "2023.04.20 - 2023.08.20",
+          "sale": ""
+        },
+        {
+          "link": "#exhibition",
+          "pic": "exhibition02.gif",
+          "alt": "전시행사2",
+          "rank": "2",
+          "title": "［얼리버드］ 백희나 그림책전",
+          "hall": "예술의전당 한가람디자인미술관",
+          "date": "2023.06.22 - 2023.07.30",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#exhibition",
+          "pic": "exhibition03.gif",
+          "alt": "전시행사3",
+          "rank": "3",
+          "title": "［HYBE INSIGHT］The Daydream Believers : 꿈, 마침내",
+          "hall": "리드빌딩",
+          "date": "2023.06.09 - 2023.08.27",
+          "sale": ""
+        },
+        {
+          "link": "#exhibition",
+          "pic": "exhibition04.gif",
+          "alt": "전시행사4",
+          "rank": "4",
+          "title": "거장의 시선, 사람을 향하다 - 영국 내셔널갤러리 명화전",
+          "hall": "국립중앙박물관 기획전시실",
+          "date": "2023.06.02 - 2023.10.09",
+          "sale": ""
+        },
+        {
+          "link": "#exhibition",
+          "pic": "exhibition05.gif",
+          "alt": "전시행사5",
+          "rank": "5",
+          "title": "(순천)박람회 입장권-보통권(일반)/단체권(20인이상)",
+          "hall": "2023 순천만국제정원박람회",
+          "date": "2023.04.01 - 2023.10.31",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#exhibition",
+          "pic": "exhibition06.gif",
+          "alt": "전시행사6",
+          "rank": "6",
+          "title": "［얼리버드］문도 멘도: 판타스틱 시티 라이프",
+          "hall": "그라운드시소 서촌",
+          "date": "2023.06.30 - 2023.12.03",
+          "sale": ""
+        }
+      ]
+    },
+    {
+      "catename": "아동/가족",
+      "list": [
+        {
+          "link": "#",
+          "pic": "musicalchild1.gif",
+          "alt": "티켓",
+          "rank": 1,
+          "title": "세비야의이발사",
+          "hall": "노원어린이극장",
+          "date": "2023.06.24 ~ 2023.06.24",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musicalchild2.gif",
+          "alt": "티켓",
+          "rank": 2,
+          "title": "뮤지컬 〈수박수영장〉",
+          "hall": "국립중앙박물관 극장 용",
+          "date": "2023.07.01 ~ 2023.08.27",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musicalchild3.gif",
+          "alt": "티켓",
+          "rank": 3,
+          "title": "뮤지컬 〈장수탕 선녀님〉- 서울숲",
+          "hall": "서울숲 씨어터 2관 ",
+          "date": "2021.09.16 ~ 2023.08.31",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musicalchild4.gif",
+          "alt": "티켓",
+          "rank": 4,
+          "title": "가족뮤지컬 〈슈퍼클로젯〉",
+          "hall": "세종문화회관 M씨어터",
+          "date": "2023.04.20 ~ 2023.06.11",
+          "sale": "단독판매"
+        },
+        {
+          "link": "#",
+          "pic": "musicalchild5.gif",
+          "alt": "티켓",
+          "rank": 5,
+          "title": "뮤지컬 미니특공대 브이레인저스 - 서울앵콜",
+          "hall": "유니버설아트센터",
+          "date": "2023.07.08 ~ 2023.07.16",
+          "sale": "좌석우위"
+        },
+        {
+          "link": "#",
+          "pic": "musicalchild6.gif",
+          "alt": "티켓",
+          "rank": 6,
+          "title": "뮤지컬 〈알사탕〉 - 서울숲",
+          "hall": "서울숲 씨어터 1관",
+          "date": "2021.09.18 ~ 2023.08.31",
+          "sale": "단독판매"
+        }
+      ]
+    }
+  ]
+}

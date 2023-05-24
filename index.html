@@ -67,10 +67,13 @@
     <!-- 스크립트 -->
     <script src="./js/index.js"></script>
     <script src="./js/shopping.js"></script>
-    <script src="./js/tour.js"></script>
-    <script src="./js/ticket.js"></script>
+    <!-- <script src="./js/tour.js"></script> -->
+    <script src="./js/tours.js"></script>
+    <!-- <script src="./js/ticket.js"></script> -->
+    <script src="./js/tickets.js"></script>
     <script src="./js/live.js"></script>
-    <script src="./js/book.js"></script>
+    <!-- <script src="./js/book.js"></script> -->
+    <script src="./js/books.js"></script>
     <script src="./js/event.js"></script>
     <!-- vender pre fix -->
     <!-- 다양한 웹브라우저가 호환되게 하는 작업 -->
@@ -99,8 +102,33 @@
     <link rel="stylesheet" href="./css/event.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/flying.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
   </head>
   <body>
+    <!-- 클론코드 안내창 -->
+    <!-- <div class="modal">
+      <div class="modal-cont">
+        <img src="./images/notice_logo.png" alt="모달로고" />
+        <span class="cont-title">클론코드 저작권 및 안내사항</span>
+        <div class="cont-text">
+          <p>
+            해당 사이트는 프론트엔드 과정의 스터디 클론코딩이므로<br />
+            본래 웹사이트 인터파크와는 관련이 없음을 알려드립니다.
+          </p>
+          <p>
+            원본사이트:<a href="https://www.interpark.com/"
+              >https://www.interpark.com/</a
+            >
+          </p>
+          <p>
+            깃허브주소:<a href="https://github.com/LSYbuilds/clone-interpark"
+              >https://github.com/LSYbuilds/clone-interpark</a
+            >
+          </p>
+          <button class="cont-btn">안내사항을 확인 했습니다.</button>
+        </div>
+      </div>
+    </div> -->
     <!-- 전체 레이아웃 -->
     <div class="fix-banner">
       <a href="#">
@@ -304,9 +332,9 @@
             <h2>투어 특가</h2>
             <p>망설이면 품절 되는 BEST 여행 상품</p>
             <div class="btns">
-              <a href="#" class="btns-active">망설이면 품절</a>
+              <a href="#">망설이면 품정</a>
               <a href="#">패키지</a>
-              <a href="#">국내숙소</a>
+              <a href="#">숙소</a>
               <a href="#">해외숙소</a>
             </div>
           </div>
@@ -387,12 +415,7 @@
           <div class="section-top">
             <h2>오늘의 도서</h2>
             <p>지금 읽기 딱 좋은 책, 놓치지 마세요!</p>
-            <div class="btns">
-              <a href="#" class="btns-active">MD's Pick</a>
-              <a href="#">베스트셀러</a>
-              <a href="#">신간추천</a>
-              <a href="#">특가할인</a>
-            </div>
+            <div class="btns"></div>
           </div>
           <div class="section-slide">
             <button class="sw-bt sw-prev">이전</button>

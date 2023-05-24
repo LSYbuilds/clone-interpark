@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
     }
   };
 
-  eventxhttp.open("GET", "eventdata.json");
+  eventxhttp.open("GET", "data/eventdata.json");
   eventxhttp.send();
 
   // 스와이퍼 초기화

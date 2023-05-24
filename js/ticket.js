@@ -18,21 +18,21 @@ window.addEventListener("load", function () {
     };
 
     if (_menu === "뮤지컬") {
-      xhr.open("GET", "ticketdata.json");
+      xhr.open("GET", "data/ticketdata.json");
     } else if (_menu === "콘서트") {
-      xhr.open("GET", "ticketdata1.json");
+      xhr.open("GET", "data/ticketdata1.json");
     } else if (_menu === "연극") {
-      xhr.open("GET", "ticketdata2.json");
+      xhr.open("GET", "data/ticketdata2.json");
     } else if (_menu === "클래식/무용") {
-      xhr.open("GET", "ticketdata3.json");
+      xhr.open("GET", "data/ticketdata3.json");
     } else if (_menu === "스포츠") {
-      xhr.open("GET", "ticketdata4.json");
+      xhr.open("GET", "data/sports.json");
     } else if (_menu === "레저/캠핑") {
-      xhr.open("GET", "ticketdata5.json");
+      xhr.open("GET", "data/ticketdata5.json");
     } else if (_menu === "전시/행사") {
-      xhr.open("GET", "ticketdata6.json");
+      xhr.open("GET", "data/ticketexhibition.json");
     } else if (_menu === "아동/가족") {
-      xhr.open("GET", "ticketdata7.json");
+      xhr.open("GET", "data/ticketdata7.json");
     }
     xhr.send();
   }
@@ -154,6 +154,6 @@ window.addEventListener("load", function () {
   };
   btns[7].onclick = function (event) {
     event.preventDefault();
-    praseTicket("아동가족");
+    praseTicket("아동/가족");
   };
 });
