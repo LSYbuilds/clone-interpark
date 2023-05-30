@@ -7,21 +7,16 @@
  */
 window.addEventListener("load", function () {
     let showIndex = 0;
-
-    fetch("data/shoppings.json")
-        .then((res) => res.json())
-        .then((result) => parseShopping(result))
-        .catch((err) => console.log(err));
-    // let xhr = new XMLHttpRequest();
-    // xhr.onreadystatechange = function (event) {
-    //     let req = event.target;
-    //     if (req.readyState === XMLHttpRequest.DONE) {
-    //         let data = JSON.parse(req.response);
-    //         parseShopping(data);
-    //     }
-    // };
-    // xhr.open("GET", "data/shoppings.json");
-    // xhr.send();
+    let xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function (event) {
+        let req = event.target;
+        if (req.readyState === XMLHttpRequest.DONE) {
+            let data = JSON.parse(req.response);
+            parseShopping(data);
+        }
+    };
+    xhr.open("GET", "data/shoppings.json");
+    xhr.send();
 
     // JSONDATA보관
     let jsonData;
@@ -131,22 +126,28 @@ window.addEventListener("load", function () {
     // 전달된 매개변수 _menu 에 따라서
     // 관련된 json 데이터를 불러들이고,
 
-    // if (_menu === "쎈딜") {
-    //     fetch("data/shoppingdata.json")
-    //         .then((res) => {
-    //             console.log(res.);
-    //             let data = JSON.parse(res.response);
-    //             makeShoppingSlide(data);
-    //         })
-    //         .catch((err) => console.log(err));
-    //     // xhr.open("GET", "data/shoppingdata.json");
-    // } else if (_menu === "베스트") {
-    //     // xhr.open("GET", "data/shoppingdata1.json");
-    // } else if (_menu === "오늘만특가") {
-    //     // xhr.open("GET", "data/shoppingdata2.json");
-    // } else if (_menu === "어린이날") {
-    //     // xhr.open("GET", "data/어린이날.json");
-    // }
+    if (_menu === "쎈딜") {
+        fetch("data/shoppingdata.json")
+            .then((res) => res.json())
+            .then((result) => makeShoppingSlide(result))
+            .catch((err) => console.log(err));
+    } else if (_menu === "베스트") {
+        // xhr.open("GET", "data/shoppingdata1.json");
+        fetch("data/shoppingdata1.json")
+            .then((res) => res.json())
+            .then((result) => makeShoppingSlide(result));
+    } else if (_menu === "오늘만특가") {
+        fetch("data/shoppingdata2.json")
+            .then((res) => res.json())
+            .then((result) => makeShoppingSlide(result))
+            .catch((err) => console.log(err));
+    } else if (_menu === "어린이날") {
+        // xhr.open("GET", "data/어린이날.json");
+        fetch("data/어린이날.json")
+            .then((res) => res.json())
+            .then((result) => makeShoppingSlide(result))
+            .catch((err) => console.log(err));
+    }
     // xhr.send();
 
     // html 을 만들어서

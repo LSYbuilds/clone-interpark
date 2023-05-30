@@ -8,23 +8,8 @@
 
 window.addEventListener("load", function () {
     let showIndex = 0;
-    // let xhr = new XMLHttpRequest();
-    // xhr.onreadystatechange = function (event) {
-    //     let req = event.target;
-    //     if (req.readyState === XMLHttpRequest.DONE) {
-    //         let data = JSON.parse(req.response);
-    //         parseTicket(data);
-    //     }
-    // };
-    // xhr.open("GET", "data/ticketdatas.json");
-    // xhr.send();
 
-    fetch("data/ticketdatas.json")
-        .then((res) => res.json())
-        .then((result) => parseTicket(result))
-        .catch((err) => console.log(err));
     // JSON데이터 보관
-
     let jsonData;
 
     // 버튼들 html 쏘기
